@@ -1,0 +1,312 @@
+/* Globals */
+
+* {
+	box-sizing: border-box;
+}
+	
+body {
+	font-family: 'Titilium Web', sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+h1, h2, h3, figcaption {
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+main {
+	clear: both;
+}
+
+/* Top Navigation */
+
+header {
+	max-width: 1200px;
+	margin: auto 0;
+}
+
+header img {
+	margin-left: 170px;
+	margin-top: -10px;
+	float: left;
+}
+
+header ul {
+	margin-top:-15px;
+	float: right;
+}
+
+header li:hover {
+	border-bottom: 2px solid #f63c3c;
+}
+
+header li a:hover {
+	color: #f63c3c;
+}
+
+header ul li {
+	display: inline-block;
+	margin-top: 35px;
+	margin-left: 35px;
+}
+
+header ul li a {
+	color: #a3a3a3;
+	text-decoration: none;
+}
+
+/* Hero */
+
+.background {
+	background: url(../img/Human.jpg) center center no-repeat;
+	background-size: cover;
+	padding-top: 250px;
+	text-align: center;
+}
+
+.background .writing li:not(.active) {
+	display: none;
+}
+
+.background h1 {
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	font-size: 110px;
+	letter-spacing: 16px;
+	color: #fff;
+}
+
+.background p {
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	font-size: 24px;
+	color: #dddcdd;
+}
+
+.background a {
+	display: inline-block;
+	background: #fff;
+	color: #000;
+	padding: 20px 50px;
+	margin-bottom: 200px;
+	font-family: Teko, sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+.background nav li {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.background nav div {
+	width: 40px;
+	height: 5px;
+	background: #a3a3a3;
+}
+.background nav li.active div{
+	background: white;
+}
+
+/* Projects */
+
+.projects {
+	text-align: center;
+}
+
+.projects h2 {
+	font-size: 40px;
+}
+
+article {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+article figure {
+	position: relative;
+}
+
+article figure img {
+	width: 100%;
+}
+
+article figcaption {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #f63c3c;
+	border: 15px solid #352d2f;
+	top: 0;
+	left: 0;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+article figcaption h4 {
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 100px;
+	margin-bottom: 75px;
+}
+
+article figcaption time {
+	display: block;
+}
+
+article figcaption p {
+	font-size: 16px;
+}
+
+article figure:hover figcaption {
+	display: initial;
+}
+
+article h3 {
+	font-size: 32px;
+	letter-spacing: 1px;
+	margin: 15px;
+}
+
+article>p {
+	width: 75%;
+	font-size: 16px;
+	margin: auto 0;
+	margin-bottom: 40px;
+	color: #646464;
+}
+
+/* Red Banner */
+
+.showcase {
+	background: #f63c3c;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.showcase h2 {
+	font-size: 40px;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+	color: #fff;
+	
+}
+
+.showcase p {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	margin-top: -10px;
+	color: #f8e5e5;
+}
+
+.showcase a {
+	display: inline-block;
+	background: #fff;
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #685157;
+	letter-spacing: 2px;
+	padding: 15px 80px;
+	margin-bottom: 55px;
+}
+
+.show-more {
+	clear: left;
+	padding-top: 15px;
+	margin-bottom: 70px;
+}
+
+.show-more:hover {
+	display: inline-block;
+	border-bottom: 2px solid #f63c3c;
+}
+
+.show-more a {
+	display: inline-block;
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #f63c3c;
+}
+
+.show-more a:hover {
+	color: #f63c3c;
+}
+
+/* Social Media */
+
+aside {
+	background: #fafafa;
+	padding-top: 25px;
+	margin-bottom: 25px;
+}
+
+.media {
+	max-width: 1200px;
+	margin: auto 0;
+}
+
+aside h2 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+aside p {
+	margin-left: 50px;
+	color: #646464;
+	margin-bottom: 60px;
+}
+
+.icons li {
+	display: inline-block;
+	width: 250px;
+	margin: 0 15px;
+	margin-bottom: 80px;
+	background: #30282a;
+	text-align: center;
+}
+
+.icons li a {
+	display: inline-block;
+ 	font-family: Teko, sans-serif;
+ 	font-weight: 300;
+ 	font-size: 30px;
+ 	text-transform: uppercase;
+ 	margin: 60px 0;
+}
+
+.fa {
+ 	display: block;
+ 	font-size: 40px;
+ }
+
+ .fa, a {
+ 	text-decoration: none;
+ 	color: #fff;
+ }
+
+ /* Footer */
+
+footer {
+ 	max-width: 1200px;
+ 	margin: 0 auto;
+ 	color: slategrey;
+ 	font-size: 10px;
+ 	margin-bottom: 40px;
+ 	margin-left: 170px;
+ }
